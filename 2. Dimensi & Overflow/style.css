@@ -1,0 +1,60 @@
+
+
+.coba {
+    background-color: aqua;
+    height: 50px;
+    width: 100%;
+}
+
+.visible {
+    background-color: aqua;
+    height: 50px;
+    width: 100%;
+    overflow: visible;
+}
+.auto {
+    background-color: aqua;
+    height: 50px;
+    width: 100%;
+    overflow: auto;
+    
+}
+.hidden {
+    background-color: aqua;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.scroll {
+    background-color: aqua;
+    height: 50px;
+    width: 100%;
+    overflow: scroll;
+
+}
+
+.auto2 {
+    background-color: aqua;
+    width: 50%;
+    height: 60px;
+    overflow: auto;
+}
+.scroll2 {
+    background-color: aqua;
+    width: 50%;
+    height: 120px;
+    overflow: scroll;
+}
+.gambar {
+    position: relative;
+    width: 100%;
+}
+.ganbatte {
+    position: relative;
+    width: 50%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+    

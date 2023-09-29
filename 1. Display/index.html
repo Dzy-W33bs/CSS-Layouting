@@ -1,0 +1,77 @@
+<!-- ==================================================================================== -->
+<!-- /
+prasyarat:
+<div></div> -> mengelompokkan tag tag yang dimiliki (misal judul, navigasi,dll)
+<span></span> -> mengelompokkan juga (tapi dia lenih kekata dengan kata)
+/ -->
+<!-- ============================================================================================ -->
+<!-- /
+
+
+Display:
+
+1. inline (a,span, img, button, dll)
+2. inline-block (sama seperti inline, tetapi bisa diatur tinggi dan lebarnya)
+3. block (div, main, p, h1-h6, dll)
+4. none (elemen tidak akan ditampilkan)
+
+/ -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <div class="judul">
+            <h1>JUDUL</h1>
+        </div>
+
+        <div class="navigasi">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <p>codenya disusun secara berkolom loh</p>
+            <p>background dari tag a yang merupakan inline hanya sebesar materi</p>
+        </div>
+
+        <div class="topic">
+            <h2>Waifuku yang cantik</h2>
+            <img src="nezukol.png" alt="waifuku">
+            <p>Nezuko is a young girl with fair skin, visibly large, prominent fangs, a slender build, and sharp, stiletto nails with a base color of light pink and ombre fading to a red-pinkish color at the end where they point. Her hair is long, black, and wavy. It reaches just below her waist, turning a flame-orange color as it passes her elbows, and appears to be crimped into large, straight ridges, worn side-swept drastically to her left. She has soft-looking, pale pink eyes that appear a lighter color around the rims of their irises, slanted downward toward the sides of her face and framed by notably long eyelashes, the pupils of which can appear slit as she transforms. In the manga, Nezuko can sometimes be shown with more than one bow. According to Tanjiro Kamado, Nezuko was known as a great beauty in their home town.</p>
+
+        </div>
+        <br>
+        <hr>
+         
+        <div class="kesimpulan">
+        <table border="1" cellspacing="0" cellpadding="10">
+            <thead>
+                <tr>
+                    <th colspan="2">Perbedaan</th>
+                </tr>
+                <tr>
+                    <th>BLOCK</th>
+                    <th>INLINE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>memenuhi lebar space</td>
+                    <td>hanya memiliki lebar sesuai kontennya</td>
+                </tr>
+                <tr>
+                    <td>membuat baris baru setiap didefinisikan</td>
+                    <td>tidak membuat baris baru setiap didefinisikan (hanya satu baris)</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>kita bisa mengubah tag yang inline ke inline-block agar ukurannya dapat diaturdi css dengan format (display: inline-block) </p>
+    </div>
+    <br>
+    <img src="ganabatte.png" alt="" class="ganbatte">
+    </body>
+</html>

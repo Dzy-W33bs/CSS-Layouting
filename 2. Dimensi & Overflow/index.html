@@ -1,0 +1,91 @@
+
+<!-- ----------------------------------------------------------------------- -->
+<!-- /
+
+mengatur ukuran dari elemen = dimensi pada CSS
+
+DIMENSI => WEIDTH dan HEIGHT dengan satuan :
+1. px / yang jelas
+2. % / relatif terhadap parent
+
+/ -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>dimension & overflow</title>
+        <meta charset="TFU-18">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div><h1>YO KITA MULAI</h1></div>
+        <div>
+            <p>tentang istri saya, Megumin</p>
+            <p class="coba">Megumin is a straightforward girl, who speaks in an old-style Japanese dialect. She can be very hyper and lively at times and has chuunibyou tendencies like the rest of the Crimson Demons villagers. She is very intelligent, but has very little self-control, especially when it comes to using Explosion magic. She has no problem wasting her spell on empty plains or abandoned castles, as long as she can use Explosion once a day. Her impractical thinking has Megumin never increase her mana to avoid dropping from exhaustion. She also refuses to learn any other spells.
+            After being harassed for days by Megumin's Explosion magic, Beldia was ticked and named her the crazy-headed girl ("Girl with screws loose"). Much to Megumin's dismay, since the nickname describes her quite well, "crazy-headed girl" also became her official nickname in Axel. Kazuma stated that Megumin has the most common sense among the girls in the party, but considering her competition, it is not much of a compliment. Megumin also enjoys participating in (or starting) childish antics with Aqua or Darkness, and often acts over-dramatic to hype up the mood.</p>
+        </div>
+        <br><br><br>
+        <p>wduh bgnya terlalu besar, kita bisa mengatasinya menggunakan overflow</p>
+
+        <div class="overflow">
+            <ul>
+                overflow:
+                <li>visible (default)</li>
+                <li>auto</li>
+                <li>hidden</li>
+                <li>scroll</li>
+            </ul>
+            <p>overflow ditulis di css</p>
+        </div>
+
+        <hr>
+
+        <div>
+            <h3>jika menggunakan visible</h3>
+            <p class="visible">Megumin is a straightforward girl, who speaks in an old-style Japanese dialect. She can be very hyper and lively at times and has chuunibyou tendencies like the rest of the Crimson Demons villagers. She is very intelligent, but has very little self-control, especially when it comes to using Explosion magic. She has no problem wasting her spell on empty plains or abandoned castles, as long as she can use Explosion once a day. Her impractical thinking has Megumin never increase her mana to avoid dropping from exhaustion. She also refuses to learn any other spells.
+            After being harassed for days by Megumin's Explosion magic, Beldia was ticked and named her the crazy-headed girl ("Girl with screws loose"). Much to Megumin's dismay, since the nickname describes her quite well, "crazy-headed girl" also became her official nickname in Axel. Kazuma stated that Megumin has the most common sense among the girls in the party, but considering her competition, it is not much of a compliment. Megumin also enjoys participating in (or starting) childish antics with Aqua or Darkness, and often acts over-dramatic to hype up the mood.</p>
+        </div>
+        <br><br><br><br>
+        <hr>
+
+        <div>
+            <h3>jika menggunakan auto</h3>
+            <p class="auto">Megumin is a straightforward girl, who speaks in an old-style Japanese dialect. She can be very hyper and lively at times and has chuunibyou tendencies like the rest of the Crimson Demons villagers. She is very intelligent, but has very little self-control, especially when it comes to using Explosion magic. She has no problem wasting her spell on empty plains or abandoned castles, as long as she can use Explosion once a day. Her impractical thinking has Megumin never increase her mana to avoid dropping from exhaustion. She also refuses to learn any other spells.
+            After being harassed for days by Megumin's Explosion magic, Beldia was ticked and named her the crazy-headed girl ("Girl with screws loose"). Much to Megumin's dismay, since the nickname describes her quite well, "crazy-headed girl" also became her official nickname in Axel. Kazuma stated that Megumin has the most common sense among the girls in the party, but considering her competition, it is not much of a compliment. Megumin also enjoys participating in (or starting) childish antics with Aqua or Darkness, and often acts over-dramatic to hype up the mood.</p>
+        </div>
+
+        <hr>
+
+        <div>
+            <h3>jika menggunakan hidden</h3>
+            <p class="hidden">Megumin is a straightforward girl, who speaks in an old-style Japanese dialect. She can be very hyper and lively at times and has chuunibyou tendencies like the rest of the Crimson Demons villagers. She is very intelligent, but has very little self-control, especially when it comes to using Explosion magic. She has no problem wasting her spell on empty plains or abandoned castles, as long as she can use Explosion once a day. Her impractical thinking has Megumin never increase her mana to avoid dropping from exhaustion. She also refuses to learn any other spells.
+            After being harassed for days by Megumin's Explosion magic, Beldia was ticked and named her the crazy-headed girl ("Girl with screws loose"). Much to Megumin's dismay, since the nickname describes her quite well, "crazy-headed girl" also became her official nickname in Axel. Kazuma stated that Megumin has the most common sense among the girls in the party, but considering her competition, it is not much of a compliment. Megumin also enjoys participating in (or starting) childish antics with Aqua or Darkness, and often acts over-dramatic to hype up the mood.</p>
+        </div>
+        <p>sebagian textnya dikasih hilang bjir</p>
+
+        <hr>
+
+        <div>
+            <h3>jika menggunakan scroll</h3>
+            <p class="scroll">Megumin is a straightforward girl, who speaks in an old-style Japanese dialect. She can be very hyper and lively at times and has chuunibyou tendencies like the rest of the Crimson Demons villagers. She is very intelligent, but has very little self-control, especially when it comes to using Explosion magic. She has no problem wasting her spell on empty plains or abandoned castles, as long as she can use Explosion once a day. Her impractical thinking has Megumin never increase her mana to avoid dropping from exhaustion. She also refuses to learn any other spells.
+            After being harassed for days by Megumin's Explosion magic, Beldia was ticked and named her the crazy-headed girl ("Girl with screws loose"). Much to Megumin's dismay, since the nickname describes her quite well, "crazy-headed girl" also became her official nickname in Axel. Kazuma stated that Megumin has the most common sense among the girls in the party, but considering her competition, it is not much of a compliment. Megumin also enjoys participating in (or starting) childish antics with Aqua or Darkness, and often acts over-dramatic to hype up the mood.</p>
+        </div>
+        <hr>
+
+        <div>
+            <h3>perbedaan auto daan class dapat dilihat jika bgnya tidak offside</h3>
+            <h3>ini auto</h3>
+            <p class="auto2">Megumin is a straightforward girl, who speaks in an old-style Japanese dialect. She can be very hyper and lively at times and has chuunibyou tendencies like the rest of the Crimson Demons villagers. She is very intelligent, but has very little self-control, especially when it comes to using Explosion magic.</p>
+
+            <h3>ini scroll</h3>
+            <p class="scroll2">Megumin is a straightforward girl, who speaks in an old-style Japanese dialect. She can be very hyper and lively at times and has chuunibyou tendencies like the rest of the Crimson Demons villagers. She is very intelligent, but has very little self-control, especially when it comes to using Explosion magic.</p>
+
+
+        </div>
+
+        <div class="gambar">
+            <img src="ganabatte.png" alt="" class="ganbatte">
+        </div>
+    </body>
+</html>

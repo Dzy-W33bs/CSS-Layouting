@@ -1,0 +1,20 @@
+.judul {
+    background-color: aqua;
+}
+
+.navigasi a {
+    background-color: blueviolet;
+    color: black;
+}
+
+.topic {
+    background-color: chartreuse;
+}
+
+.topic h2 {
+    background-color: crimson;
+}
+.topic p {
+    background-color: cyan;;
+}
+
