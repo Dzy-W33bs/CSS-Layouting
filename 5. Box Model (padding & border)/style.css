@@ -1,0 +1,36 @@
+.satu {
+    width: 600px;
+    /* biasakan untuk hanya membuat lebar saja dalam membuat teks dengan bg  */
+    background-color: lightgreen;
+    margin: 10px auto;
+}
+.dua {
+    width: 600px;
+    /* biasakan untuk hanya membuat lebar saja dalam membuat teks dengan bg  */
+    background-color: lightgreen;
+    margin: 10px auto;
+    padding: 30px 20px 30px;
+}
+.tiga {
+    width: 600px;
+    /* biasakan untuk hanya membuat lebar saja dalam membuat teks dengan bg  */
+    background-color: lightgreen;
+    margin: 10px auto;
+    padding: 30px 20px 30px;
+    box-sizing: border-box;
+}
+/* ============================================================== */
+
+.border1 {
+    box-sizing: border-box;
+    width: 400px;
+    background-color: grey;
+    padding: 10px 50px;
+    border-left: 3px dotted black;
+    border-bottom: 7px solid red;
+}
+img {
+    width: 500px;
+    margin: 20px auto;
+}
+
