@@ -1,0 +1,35 @@
+
+"
+-Setiap elemen di halaman berada di dalam box (kotak)
+-Kita bisa mengatur ukuran dan posisi kotak tersebut
+-Kita bisa meberi warna / gambar sebagai background kotak tersebut
+"
+
+CSS Box Model terdiri atas:
+1. margin  = area transparan di sekitar kotak (di luar border)
+2. padding = area transparan di dalam kotak (antara conten dan border)
+3. border  = batas disekeliling content dan padding
+4. content = konten sebenarnya didalam box, bisa berupa teks atau gambar
+
+
+Properti untuk margin, padding, dan border
+
+margin-top
+margin-right
+margin-bottom
+margin-left
+margin
+
+padding-top
+padding-right
+padding-bottom
+padding-left
+padding
+
+border-top
+border-right
+border-bottom
+border-left
+border
+
+
