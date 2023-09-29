@@ -1,0 +1,90 @@
+.satu1 {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.dua1 {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin-top: 30px;
+}
+.tiga1 {
+    width: 50px;
+    background-color: lightgreen;
+    height: 50px;
+    margin-left: 300px;
+}
+
+/* ============================================================================= */
+
+.verti1 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin-bottom: 30px;
+}
+.verti2 {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    margin-top: 20px;
+}
+#div {
+    display: inline-block;
+}
+.hori1 {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    margin-right: 100px;
+}
+.hori2 {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    margin-left: 50px;
+}
+/* ===================================================================== */
+.negatif1 {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    margin-left: 50px;
+}
+.negatif2 {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    margin-left: -50px;
+}
+/* ==================================================================== */
+.auto1 {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    /* jadi harus kedua duanya yang auto (tdk boleh salah satu) */
+}
+/* ====================================================================== */
+.nilai1 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 50px;
+}
+.nilai3 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 50px auto 30px;
+}
+
+.img {
+    margin : 50px auto 50px;
+    width: 50%;
+    
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>tentang margin</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <h2>cara menggunaan margin</h2>
+        <p>margin adalah hal transparan diluar elemen yang mengatur jaraknya dengan parent</p>
+        <p>posisi antar balok bisa diatur dengan mengubah marginnya</p>
+        <div class="satu1">1</div>
+        <div class="dua1">2</div>
+        <div class="tiga1">3</div>
+        <hr>
+
+        <h2>Overlapping margin</h2>
+        <p>overlapping margin adalah gejala ketika dua margin bertemu, jika: <br>
+            1. margin verrtikal bertemu -> marin total adalah margin terbesar <br>
+            2. margin horizontal bertemu -> margin total adalah penjumlahan dua margin
+        </p>
+        <table>
+            <tr>
+                <td>
+                    <div class="verti1">1</div>
+                    <div class="verti2">2</div>
+                </td>
+                <td>margin bottom hijau tua = 30px <br>
+                    margin top  hijau muda = 20px <br>
+                    margin total = 30px
+                </td>
+            </tr>
+        </table>
+        <br><br> <br> <br>    
+        
+        <i>untuk mengubah elemen block jadi 1 baris, maka ubah displaynya jadi inline-block</i>
+        <br>
+        
+         <div class="hori1" id="div">1</div>
+         <div class="hori2" id="div">2</div>
+        <p>margin right biru = 100px <br>
+            margin left merah = 50px <br>
+            margin total = 150px
+        </p>
+        <hr>
+
+        <h2>Negatif Margin</h2>
+        <p>negatif margin adalah margin yang berlawanan arah</p>
+        <br>
+        <p>margin-left = 50px</p>
+        <div class="negatif1">1</div>
+        <br>
+        <p>margin-left = -50px</p>
+        <div class="negatif2">2</div>
+        <hr>
+
+        <h2>auto</h2>
+        <p>margin auto membuat elemen persis berada di tengah. margin auto hanya bisa di gunakan di <strong>margin vertikal (left and right)</strong></p>
+        <div class="auto1">1</div>
+        <hr>
+
+        <h2>shorthand</h2>
+
+        <p>
+            1 nilai -> <strong>margin : #px(top/right/bottom/left)</strong> <br>
+            2 nilai -> <strong>margin : #px(top/bottom) #px(right/left)</strong> <br>
+            3 nilai -> <strong>margin : #px(top) #px(right/left) #px(bottom)</strong> <br>
+            4 niali -> <strong>margin : #px(top) #px(right) #px(bottom) #px(left)</strong>
+        </p>
+        <div class="nilai1">1</div>
+        <div class="nilai3">3</div>
+
+      <hr>
+
+     <div class="img"><img src="ganabatte.png" alt=""></div>
+        
+        
+
+    </body>
+</html>
