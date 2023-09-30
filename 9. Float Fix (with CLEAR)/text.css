@@ -1,0 +1,141 @@
+.continer {
+    width: 800px;
+    margin: auto;
+    border: 5px solid black;
+    padding: 30px;
+}
+.main {
+    width: 500px;
+    margin: auto;
+    border: 5px solid black;
+    background-color: antiquewhite;
+}
+.main img {
+    width: 60%;
+    height: 60%;
+    float: right;
+}
+.main2 {
+    width: 500px;
+    margin: auto;
+    border: 5px solid black;
+    background-color: antiquewhite;
+}
+.main2 img {
+    width: 60%;
+    height: 60%;
+    float: right;
+}
+.clear {
+    clear: right;
+}
+
+/* =========================================================== */
+
+.galery {
+    width: 500px;
+    margin: auto;
+    border: 5px solid black;
+    background-color: antiquewhite;
+}
+
+.gambar{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 5px;
+    float: left;
+}
+.galery2 {
+    width: 500px;
+    margin: auto;
+    border: 5px solid black;
+    background-color: antiquewhite;
+}
+.gambar2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 5px;
+    float: left;
+}
+.cleargalery {
+    clear: left;
+}
+
+/* ==================================================================================== */
+
+.kolom {
+    width: 530px;
+    margin: auto;
+    border: 5px solid black;
+    background-color: antiquewhite;
+}
+
+.kolom1 {
+    width: 150px;
+    height: 500px;
+    background-color: limegreen;
+    box-sizing: border-box;
+    float: left;
+    margin: 5px;
+}
+.kolom2 {
+    width: 200px;
+    height: 500px;
+    background-color: yellow;
+    box-sizing: border-box;
+    float: left;
+    margin: 5px;
+}
+.kolom3 {
+    width: 150px;
+    height: 500px;
+    background-color: skyblue;
+    box-sizing: border-box;
+    float: left;
+    margin: 5px;
+}
+.kulum {
+    width: 530px;
+    margin: auto;
+    border: 5px solid black;
+    background-color: antiquewhite;
+}
+.kulum1 {
+    width: 150px;
+    height: 500px;
+    background-color: limegreen;
+    box-sizing: border-box;
+    float: left;
+    margin: 5px;
+}
+.kulum2 {
+    width: 200px;
+    height: 500px;
+    background-color: yellow;
+    box-sizing: border-box;
+    float: left;
+    margin: 5px;
+}
+.kulum3 {
+    width: 150px;
+    height: 500px;
+    background-color: skyblue;
+    box-sizing: border-box;
+    float: left;
+    margin: 5px;
+}
+.clearkolom {
+    clear: left;
+}
+.footer {
+    width: 600px;
+    margin: auto;
+}
+.footer img {
+    width: 100%;
+    height: 100%;
+}
+
+
