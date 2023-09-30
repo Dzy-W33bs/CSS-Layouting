@@ -1,0 +1,198 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ================================================== */
+
+body {
+    font: 16px/28px arial, sans-serif;
+    color: white;
+    background-image: url(background.jpg);
+}
+
+.terminal {
+    width: 800px;
+    background-color: black;
+    margin: auto;
+    
+}
+
+.header {
+    padding : 20px
+}
+
+.header .main {
+    font-size: 35px;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+
+.header ul li {
+    display: inline-block;
+    padding-right: 20px;
+    padding-top: 12px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: lightgreen;
+    font-size: 12px;
+}
+
+.header ul li a:hover {
+    background-color: rgb(5, 63, 82);
+    padding: 5px;
+    box-sizing: border-box ;
+}
+
+.gambar {
+    background-image: url(meguminmain.png);
+    height: 350px;
+    background-size: cover;
+    background-position: 0 -20px;
+    border-top: 5px solid maroon;
+    border-left: 5px solid maroon;
+    border-right: 5px solid red;
+    border-bottom: 5px solid red;
+    box-sizing: border-box;
+}
+
+.content {
+    margin: 20px;
+    font-size: 14px;
+}
+
+.content .judul {
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 13px;
+    padding-top: 20px;
+    margin-top: -10px;
+}
+
+.content .penulis {
+    font-size: 11px;
+    margin-top: -12px;
+    padding-bottom: 20px;
+}
+
+.content .penulis a {
+    color: rgb(92, 201, 237);
+}
+
+.content .penampilan {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.penampilan p:nth-of-type(1) {
+    padding-bottom: 20px;
+}
+
+.content p {
+    padding-bottom: 10px;
+}
+
+.content .kepribadian {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.content .sejarah {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.galeri {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.content .galery {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+   
+}
+
+.galery1 {
+    width: 30%;
+    height: 200px;
+    margin-right: 30px;
+}
+.galery2 {
+    width: 30%;
+    height: 200px;
+    margin-right: 30px;
+}
+.galery3 {
+    width: 30%;
+    height: 200px;
+    padding-bottom: 20px;
+}
+
+.content p a {
+    color: rgb(92, 201, 237);
+}
+
+.footer {
+    background-color: whitesmoke;
+    padding: 6px;
+}
+
+.footer .copy {
+    font-size: 13px;
+    color: black;
+    text-align: center;
+}
+
+
