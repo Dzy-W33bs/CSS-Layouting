@@ -1,0 +1,391 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ======================================================================================================================= */
+
+body {
+    color: white;
+    background-image: url(img/wallpaperflare.com_wallpaper\ \(3\).jpg);
+    font: 16px/28px arial, sans-serif ;
+    background-size: auto;
+
+}
+
+.navbar {
+    background-color: rgb(231, 43, 43);
+    position: fixed;
+    height: 35px;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+}
+.navbar p{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 35px;
+    padding-left: 20px;
+}
+
+.navbar .penulis {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.navbar .tanggal {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 20px;
+}
+.navbar .istri {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.continer {
+    width: 950px;
+    background-color: black;
+    margin: 50px auto;
+    position: relative;
+}
+.github a{
+    width: 160px;
+    height: 160px;
+    background-repeat: no-repeat;
+    background-image: url(img/768px-GitHub_forkme_ribbon_right_green.svg.png);
+    text-indent: -999999px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-size: cover;
+}
+.header{
+    padding: 20px;
+}
+.header h1 {
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.header ul li {
+    display: inline-block;
+    padding-top: 15px;
+    margin-right: 20px;
+}
+
+.header ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: lime;
+}
+
+.header ul li a:hover{
+    background-color: green;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.cover .sampul{
+    height: 350px;
+    background-image: url(img/kuromesampul.png);
+    background-size: cover;
+    background-position: -35px -50px;
+    border-top: 4px solid red;
+    border-right: 4px solid red;
+    border-bottom: 4px solid red;
+    border-left: 4px solid red;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content .main {
+    width: 600px;
+    float: left;
+}
+.content .main h2 {
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.content .main h3{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 13px;
+}
+
+.content .main p {
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+
+.content .sidebar  {
+    width: 300px;
+    float: right;
+    margin-top: 500px;
+    margin-bottom: 500px;
+}
+.sidebar .otherwife {
+    text-align: center;
+    margin-bottom: 500px;
+    margin-top: -300px;
+}
+.sidebar .otherwife p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: -30px;
+}
+.sidebar .otherwife ul li {
+    padding: 15px;
+}
+.sidebar .otherwife ul li a{
+    text-decoration: none;
+    color: pink;
+    padding: 5px;
+}
+.sidebar .otherwife ul li a:hover {
+    background-color: rgb(239, 76, 104);
+}
+.content .sidebar .megumin {
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    position: relative;
+    top: 40px;
+    left: 40px;
+    background-image: url(img/meguminn.jpg);
+    background-size: cover;
+    border: pink solid 2px;
+}
+.content .sidebar .tsukasa {
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    top: 40px;
+    left: 40px;
+    position: relative;
+    background-image: url(img/tsukasa.jpg);
+    background-size: cover;
+    border: pink solid 2px;
+
+}
+.content .sidebar .mine {
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    top: 40px;
+    left: 40px;
+    position: relative;
+    background-image: url(img/mine.jpg);
+    background-size: cover;
+    border: pink solid 2px;
+
+}
+
+.sidebar .galery div {
+    width: 140px;
+    height: 200px;
+    background-color: navy;
+    margin: 5px;
+    float: left;
+}
+.sidebar .galery p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.sidebar .galery .galery1 {
+    background-image: url(img/kurome1.jpg);
+    background-size: cover;
+}
+.sidebar .galery .galery2 {
+    background-image: url(img/kurome2.jpg);
+    background-size: cover;
+}
+.sidebar .galery .galery3 {
+    background-image: url(img/kurome3.jpg);
+    background-size: cover;
+    background-position: -20px 0;
+}
+.sidebar .galery .galery5 {
+    background-image: url(img/kurome5.jpg);
+    background-size: cover;
+}
+.sidebar .galery .galery6 {
+    background-image: url(img/kurome6.jpg);
+    background-size: cover;
+    background-position: -20px 0;
+}
+
+.sidebar .galery .galery7 {
+    background-image: url(img/kurome7.jpg);
+    background-size: cover;
+}
+.sidebar .galery .galery4 {
+    background-image: url(img/kurome4.jpg);
+    background-size: cover;
+    background-position: -20px 0;
+}
+
+.sidebar .galery .galery8 {
+    background-image: url(img/kurome8.jpg);
+    background-size: cover;
+    margin-bottom: 300px;
+}
+
+.sidebar .tidur {
+    margin-top: 1500px;
+}
+.sidebar .tidur img {
+    width: 300px ;
+    height: 600px;
+}
+
+.footer {
+    height: 45px;
+    background-color: maroon;
+}
+
+.footer p {
+    text-align: center;
+    line-height: 40px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================================================================================ */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
