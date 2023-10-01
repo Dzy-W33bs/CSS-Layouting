@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="continer">
+        <p>untuk mengubah posisi suatu elemen, kita bisa menggunakan properti Position</p>
+        <ul>
+            <b>Position</b>
+            <li>Static</li>
+            <li>relative</li>
+            <li>absolute (sering digunakan untuk menggeser)</li>
+            <li>fixed</li>
+        </ul>
+        <hr>
+        <div class="static">
+            <h2>Static</h2>
+            <ul>
+                <li><b>Static </b>adalah nilai default dari tiap tiap elemen ketika tidak diberi properti</li>
+                <li>Menggunkan position selain <b>static </b>(non static), akan membuat sebuah elemen menjadi seolah-olah <b>berbeda dimensi </b>dari elemen lainnya   </li>
+                <li>Elemen yang diberi position selain <b>static </b>dapat menggunkan properti <b>top, left, bottom, right, </b> untuk mengaturr posisinya</li>
+            </ul>
+        </div>
+        <hr>
+        <div class="relative">
+            <h2>Relative</h2>
+            <ul>
+                <li>Ketika menggunkan elemen dengan posisi relativ (menggunkan properti <b>top/right/bottom/left) </b>, ruang yang ditempati oleh elemen tersebut masih ada</li>
+                <li>Ketika menggerakkan elemen dengan posisi relativ, elemen yang bergerak <b>relatif terhadap posisi semula</b></li>
+                <li>Jika kita menggunkan properti <b>top: 0; dan left: 0; </b>maka elemen tidak berubah posisinya</li>
+            </ul>
+            <div class="relative1"></div>
+            <div class="relative2"></div>
+            <div class="relative3"></div>
+        </div>
+        <hr>
+        <div class="absolute">
+            <h2>Absolute</h2>
+            <ul>
+                <li>Ketika kita menggerakkan elemen dengan posisi <b>absolute </b>(menggunakan properti <b>top/right/bottom/left</b>), ruang yang ditempati oleh elemen tersebut dianggap tidak ada</li>
+                <li>KETIKA KITA MENGGERAKKAN ELEMEN DENGAN POSISI ABSOLUTE, ELEMEN AKAN BERGERAK RELATIF TERHADAP POSISI DARI ELEMENT PARENTNYA, <b>selama element parentnya memiliki posisi yang juga non-static </b>(intinya ubah div/parent terdekat ke posisi non static seperti relative)</li>
+                <li>Jika kita memberi properti <b>top: 0; dan left: 0; </b>maka element akan berada di ujung kiri atas dari elemen parentnya</li>
+            </ul>
+            <p>sebelum continer dikasih relative</p>
+            <div class="continerabsolute">
+                <div class="absolute1">ABSOLUTE</div>
+                <div class="absolute2">ABSOLUTE</div>
+                <div class="absolute3">ABSOLUTE</div>
+            </div>
+            <p>setelah continer dikasih relativ</p>
+            <div class="continerabsolute2">
+                <div class="absolute4">ABSOLUTE</div>
+                <div class="absolute5">ABSOLUTE</div>
+                <div class="absolute6">ABSOLUTE</div>
+            </div>
+        </div>
+        <hr>
+        <div class="fixed">
+            <h2>fixed</h2>
+            <ul>
+                <li>Ketika kita menggerakkan elemen dengan posisi <b>fixed </b>(menggunakan properti <b>top/right/bottom/left</b>), ruang yang ditempati oleh elemen tersebut dianggap <b>tidak ada</b> </li>
+                <li>Ketika kita menggerakkan elemen dengan posisi absolute, elemen akan bergerak relatif terhadap <b>window (browser), meskipun element parentnya bernilai non-static</b></li>
+                <li>jika kita memberi properti <b>top: 0; dan left: 0;</b>, maka elemen akan berada di ujung kiri atas dari element parentnya</li>
+                <li>elemen akan <b>'terkunci' </b>dan tidak bergerak dari posisinya meskipun halaman di-scroll</li>
+            </ul>
+            <p>contohnya liat pada nama gw di atas dan bawah</p>
+            <div class="bar">
+                <p>Akulah Dzaky Penguasa Kopling</p>
+            </div>
+            <div class="bar2">
+                <p>Akulah Dzaky Penguasa Kopling</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

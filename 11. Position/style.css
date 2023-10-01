@@ -1,0 +1,132 @@
+.continer {
+    width: 600px;
+    border: 6px solid black;
+    margin: auto;
+    padding: 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+/* relative */
+
+.relative div {
+    width: 100px;
+    height: 100px;
+}
+.relative .relative1 {
+    background-color: skyblue;
+}
+.relative .relative2 {
+    background-color: lime;
+    position: relative;
+    bottom: 40px;
+    left: 65px;
+}
+.relative .relative3 {
+    background-color: yellow;
+    position: relative;
+    bottom: 30px;
+    right: 7px;
+}
+
+/* absolute */
+.absolute p {
+    text-align: center;
+}
+
+.continerabsolute {
+    border: 3px solid black;
+    width: 300px;
+    margin: auto;
+}
+.continerabsolute div{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.continerabsolute .absolute1 {
+    background-color: skyblue;
+    position: absolute;
+    left: 50px;
+    text-align: center;
+    line-height: 100px;
+}
+.continerabsolute .absolute2 {
+    background-color: lime;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    line-height: 100px;
+}
+
+.continerabsolute .absolute3 {
+    background-color: yellow;
+    text-align: center;
+    line-height: 100px;
+
+}
+.continerabsolute2 {
+    border: 3px solid black;
+    width: 300px;
+    margin: auto;
+    position: relative;
+}
+.continerabsolute2 div{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.continerabsolute2 .absolute4 {
+    background-color: skyblue;
+    position: absolute;
+    left: 50px;
+    text-align: center;
+    line-height: 100px;
+}
+.continerabsolute2 .absolute5 {
+    background-color: lime;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    line-height: 100px;
+}
+.continerabsolute2 .absolute6 {
+    background-color: yellow;
+    text-align: center;
+    line-height: 100px;
+}
+
+/* fixed */
+
+.bar {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.bar p {
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+.bar2 {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.bar2 p {
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
